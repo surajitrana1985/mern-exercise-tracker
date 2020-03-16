@@ -1,12 +1,34 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Mongo Script
+
+Create a profile and cluster on MongoDb Atlas and generate a URI (as below) and place it in .env file under src folder and replace <password> with your database password:
+
+ATLAS_URI=mongodb+srv://mongouser:<password>@cluster0-vgfiw.gcp.mongodb.net/test?retryWrites=true&w=majority
+
+## Express Script
+
+Install library by running below command:
+
+### `npm install`
+
+In the project directory, change directory to backend folder you can run:
+
+### `cd backend`
+### `npm install`
+### `nodemon server.js`
+
+Runs the Express API in the development mode.<br />
+On [http://localhost:5000](http://localhost:5000).
+
+## React Script
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm install`
+### `npm run start`
 
-Runs the app in the development mode.<br />
+You will also see any lint errors in the console.Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
